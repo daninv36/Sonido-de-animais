@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio54</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="./assets/SonsdeAnimais.png" alt="sons de animais titulo">
+        <p class="header__p">Fai clic no botón do animal para escoitar o seu son</p>
+    </header>
+
+    <main class="main">
+        <section class="container">
+            <button onclick="reproducirSonido('./assets/audio/gato.mp3')" class="gato card">
+                <img src="./assets/img/gato.webp" alt="gato">
+                <p class="card__p">Gato</p>
+            </button>
+            <button onclick="reproducirSonido('./assets/audio/can.mp3')" class="can card">
+                <img src="./assets/img/can.webp" alt="can">
+                <p class="card__p">Can</p>
+            </button>
+            <button onclick="reproducirSonido('./assets/audio/leon.mp3')" class="leon card">
+                <img src="./assets/img/leon.webp" alt="leon">
+                <p class="card__p">Leon</p>
+            </button>
+            <button onclick="reproducirSonido('./assets/audio/cabalo.mp3')" class="cabalo card">
+                <img src="./assets/img/cabalo.webp" alt="cabalo">
+                <p class="card__p">Cabalo</p>
+            </button>
+            <button onclick="reproducirSonido('./assets/audio/vaca.mp3')" class="vaca card">
+                <img src="./assets/img/vaca.webp" alt="vaca">
+                <p class="card__p">Vaca</p>
+            </button>
+            <button onclick="reproducirSonido('./assets/audio/cabuxa.mp3')" class="cabuxa card">
+                <img src="./assets/img/cabuxa.webp" alt="cabuxa">
+                <p class="card__p">Cabuxa</p>
+            </button>
+            <button onclick="reproducirSonido('./assets/audio/hipopotamo.mp3')" class="hipopotamo card">
+                <img src="./assets/img/hipopotamo.webp" alt="hipopotamo">
+                <p class="card__p">Hipopótamo</p>
+            </button>
+            <button onclick="reproducirSonido('./assets/audio/pinguin.mp3')" class="pinguino card">
+                <img src="./assets/img/pinguin.webp" alt="pinguino">
+                <p class="card__p">Pingüino</p>
+            </button>
+
+        </section>
+    </main>
+    <script src="./js/javascript.js"></script>
+</body>
+</html>
